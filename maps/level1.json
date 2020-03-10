@@ -16,13 +16,13 @@
     },
     "map": [
         { "line": "wwwwwwwwwwwwwww" },
-        { "line": "w_p_ccc    wwww" },
-        { "line": "w_bcbcb b bwwww" },
-        { "line": "wc        cccfw" },
-        { "line": "w b b bcb b bcw" },
-        { "line": "w   c  c      e" },
-        { "line": "w bb b b b b  w" },
-        { "line": "w cfc         w" },
+        { "line": "w             w" },
+        { "line": "w             w" },
+        { "line": "w             w" },
+        { "line": "w             w" },
+        { "line": "w             w" },
+        { "line": "w             w" },
+        { "line": "w             w" },
         { "line": "wwwwwwwwwwwwwww" }
     ],
     "bonus": [
