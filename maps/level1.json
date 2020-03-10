@@ -1,6 +1,6 @@
 {
 	"name": "level1",
-	"img": "bomberman-assets/img/icon_level1",
+	"img": "bomberman-assets/imgs/icon_level1.png",
     "height": 9,
     "width": 15,
     "time": 150,
