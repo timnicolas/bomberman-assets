@@ -15,15 +15,15 @@
         "safe": "_"
     },
     "map": [
-        { "line": "wwwwwwwwwwwwwww" },
+        { "line": "wwwwwwwwewwwwww" },
+        { "line": "w             w" },
+        { "line": "w  p          w" },
+        { "line": "w             w" },
+        { "line": "e      f      e" },
         { "line": "w             w" },
         { "line": "w             w" },
         { "line": "w             w" },
-        { "line": "w             w" },
-        { "line": "w             w" },
-        { "line": "w             w" },
-        { "line": "w             w" },
-        { "line": "wwwwwwwwwwwwwww" }
+        { "line": "wwwwwwewwwwwwww" }
     ],
     "bonus": [
         {
