@@ -1,9 +1,10 @@
 {
     "name": "level 0",
 	"img": "bomberman-assets/imgs/icon_level0.png",
-    "height": 9,
+    "height": 15,
     "width": 15,
-    "time": 150,
+	"time": 150,
+	"wallGenPercent": 40,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -12,17 +13,26 @@
         "crispy": "c",
         "flag": "f",
         "end": "e",
-        "safe": "_"
+		"safe": "_",
+		"enemyBasic": "0",
+		"enemyWithEye": "1",
+		"enemyFollow": "2"
     },
     "map": [
         { "line": "wwwwwwwwwwwwwww" },
-        { "line": "w_p_ccc    wwww" },
-        { "line": "w_bcbcb b bwwww" },
-        { "line": "wc        cccfw" },
-        { "line": "w b b bcb b bcw" },
-        { "line": "w   c  c      e" },
-        { "line": "w bb b b b b  w" },
-        { "line": "w cfc         w" },
+        { "line": "w_p_c      1  w" },
+        { "line": "w_bcb b b b b w" },
+        { "line": "wc       1  f1w" },
+        { "line": "w b b b b b b w" },
+        { "line": "w       1     w" },
+        { "line": "w b b b b b b w" },
+        { "line": "w    1        w" },
+        { "line": "w b b b b b b w" },
+        { "line": "w  cf2     0  w" },
+        { "line": "w b b b b b bcw" },
+        { "line": "w           c2e" },
+        { "line": "w_b_b b bcbcbcw" },
+        { "line": "w_2_    c  _0fw" },
         { "line": "wwwwwwwwwwwwwww" }
     ],
     "bonus": [
