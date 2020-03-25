@@ -1,9 +1,10 @@
 {
-	"name": "level 1",
+    "name": "level  ",
 	"img": "bomberman-assets/imgs/icon_level1.png",
-    "height": 9,
+    "height": 15,
     "width": 15,
-    "time": 150,
+	"time": 150,
+	"wallGenPercent": 5,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -12,18 +13,27 @@
         "crispy": "c",
         "flag": "f",
         "end": "e",
-        "safe": "_"
+		"safe": "_",
+		"enemyBasic": "0",
+		"enemyWithEye": "1",
+		"enemyFollow": "2"
     },
     "map": [
-        { "line": "wwwwwwwwewwwwww" },
+        { "line": "wwwwwwwwwwwwwww" },
+        { "line": "w_p_ f        e" },
+        { "line": "w_b b b b b b w" },
         { "line": "w             w" },
-        { "line": "w  p          w" },
+        { "line": "w b b b b b b w" },
         { "line": "w             w" },
-        { "line": "e      f      e" },
+        { "line": "w b b b b b b w" },
         { "line": "w             w" },
         { "line": "w   ccccc     w" },
         { "line": "w             w" },
-        { "line": "wwwwwwewwwwwwww" }
+        { "line": "w b b b b b b w" },
+        { "line": "w             w" },
+        { "line": "w b b b b b b w" },
+        { "line": "w             w" },
+        { "line": "wwwwwwwwwwwwwww" }
     ],
     "bonus": {
         "life": {
