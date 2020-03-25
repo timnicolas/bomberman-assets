@@ -21,24 +21,14 @@
         { "line": "w             w" },
         { "line": "e      f      e" },
         { "line": "w             w" },
-        { "line": "w             w" },
+        { "line": "w   ccccc     w" },
         { "line": "w             w" },
         { "line": "wwwwwwewwwwwwww" }
     ],
-    "bonus": [
-        {
-            "pos": {
-                "x": 5,
-                "y": 0
-            },
-            "type": "bomb"
-        },
-        {
-            "pos": {
-                "x": 5,
-                "y": 8
-            },
-            "type": "speed"
+    "bonus": {
+        "life": {
+            "chance": 10,
+            "nb": -1
         }
-    ]
+    }
 }

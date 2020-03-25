@@ -24,21 +24,5 @@
         { "line": "w   wwwewww   w" },
         { "line": "w             w" },
         { "line": "wwwwwwwwwwwwwww" }
-    ],
-    "bonus": [
-        {
-            "pos": {
-                "x": 5,
-                "y": 0
-            },
-            "type": "bomb"
-        },
-        {
-            "pos": {
-                "x": 5,
-                "y": 8
-            },
-            "type": "speed"
-        }
     ]
 }

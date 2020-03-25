@@ -25,20 +25,43 @@
         { "line": "w cfc         w" },
         { "line": "wwwwwwwwwwwwwww" }
     ],
-    "bonus": [
-        {
-            "pos": {
-                "x": 5,
-                "y": 0
-            },
-            "type": "bomb"
+    "bonus": {
+        "life": {
+            "chance": 10,
+            "nb": -1
         },
-        {
-            "pos": {
-                "x": 5,
-                "y": 8
-            },
-            "type": "speed"
+        "bombs": {
+            "chance": 15,
+            "nb": -1
+        },
+        "flames": {
+            "chance": 10,
+            "nb": -1
+        },
+        "speed": {
+            "chance": 10,
+            "nb": 4
+        },
+        "wallpass": {
+            "chance": 5,
+            "nb": 1
+        },
+        "detonator": {
+            "chance": 15,
+            "nb": 1
+        },
+        "bombpass": {
+            "chance": 2,
+            "nb": 1
+        },
+        "flampass": {
+            "chance": 1,
+            "nb": 1
+        },
+        "shield": {
+            "chance": 5,
+            "nb": 1
         }
-    ]
+
+    }
 }
