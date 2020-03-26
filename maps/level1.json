@@ -19,21 +19,21 @@
 		"enemyFollow": "2"
     },
     "map": [
-        { "line": "wwwwwwwwwwwwwww" },
-        { "line": "w_p_ f        e" },
-        { "line": "w_b b b b b b w" },
-        { "line": "w             w" },
-        { "line": "w b b b b b b w" },
-        { "line": "w             w" },
-        { "line": "w b b b b b b w" },
-        { "line": "w             w" },
-        { "line": "w   ccccc     w" },
-        { "line": "w             w" },
-        { "line": "w b b b b b b w" },
-        { "line": "w             w" },
-        { "line": "w b b b b b b w" },
-        { "line": "w             w" },
-        { "line": "wwwwwwwwwwwwwww" }
+        { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
+        { "0": "w_p_ f        e", "1": "w bbbbb       w" },
+        { "0": "w_b b b b b b w", "1": "w b   b       w" },
+        { "0": "w             w", "1": "w b b b       w" },
+        { "0": "w b b b b b b w", "1": "w b b b       w" },
+        { "0": "w             w", "1": "w b b b       w" },
+        { "0": "w b b b b b b w", "1": "w b   b       w" },
+        { "0": "w             w", "1": "w bbbbb       w" },
+        { "0": "w   ccccc     w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w b b b b b b w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w b b b b b b w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" }
     ],
     "bonus": {
         "life": {
