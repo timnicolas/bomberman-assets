@@ -16,7 +16,8 @@
 		"safe": "_",
 		"enemyBasic": "0",
 		"enemyWithEye": "1",
-		"enemyFollow": "2"
+		"enemyFollow": "2",
+		"enemyFly": "3"
     },
     "map": [
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },

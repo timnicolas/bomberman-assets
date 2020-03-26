@@ -16,16 +16,17 @@
 		"safe": "_",
 		"enemyBasic": "0",
 		"enemyWithEye": "1",
-		"enemyFollow": "2"
+		"enemyFollow": "2",
+		"enemyFly": "3"
     },
     "map": [
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
         { "0": "w_p_ f        e", "1": "w bbbbb       w" },
-        { "0": "w_b b b b b b w", "1": "w b   b       w" },
-        { "0": "w             w", "1": "w b b b       w" },
-        { "0": "w b b b b b b w", "1": "w b b b       w" },
-        { "0": "w             w", "1": "w b b b       w" },
-        { "0": "w b b b b b b w", "1": "w b   b       w" },
+        { "0": "w_b b b b b b w", "1": "w b0  bbb     w" },
+        { "0": "w             w", "1": "w b b   b     w" },
+        { "0": "w b b b b b b w", "1": "w b bbb b     w" },
+        { "0": "w             w", "1": "w b b   b     w" },
+        { "0": "w b b b b b b w", "1": "w b   bbb     w" },
         { "0": "w             w", "1": "w bbbbb       w" },
         { "0": "w   ccccc     w", "1": "w             w" },
         { "0": "w             w", "1": "w             w" },
