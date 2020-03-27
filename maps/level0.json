@@ -17,7 +17,8 @@
 		"enemyBasic": "0",
 		"enemyWithEye": "1",
 		"enemyFollow": "2",
-		"enemyFly": "3"
+		"enemyFly": "3",
+		"enemyCrispy": "4"
     },
     "map": [
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
@@ -27,7 +28,7 @@
         { "0": "w b b b b b b w", "1": "w b     b     w" },
         { "0": "w       1     w", "1": "w b     b     w" },
         { "0": "w b b b b b b w", "1": "w b     b     w" },
-        { "0": "w    1        w", "1": "w b     b     w" },
+        { "0": "w    1       4w", "1": "w b     b     w" },
         { "0": "w b b b b b b w", "1": "w b     b     w" },
         { "0": "w  cf2     0  w", "1": "w b    3b     w" },
         { "0": "w b b b b b bcw", "1": "w bbbbbbb     w" },
