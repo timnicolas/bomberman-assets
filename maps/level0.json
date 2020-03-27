@@ -18,7 +18,8 @@
 		"enemyWithEye": "1",
 		"enemyFollow": "2",
 		"enemyFly": "3",
-		"enemyCrispy": "4"
+		"enemyCrispy": "4",
+		"enemyFrog": "5"
     },
     "map": [
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
