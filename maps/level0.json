@@ -72,7 +72,14 @@
         "shield": {
             "chance": 5,
             "nb": 1
+        },
+        "time": {
+            "chance": 20,
+            "nb": 1
+        },
+        "points": {
+            "chance": 15,
+            "nb": 3
         }
-
     }
 }

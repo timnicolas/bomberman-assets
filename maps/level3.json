@@ -1,0 +1,85 @@
+{
+    "name": "level 2",
+	"img": "bomberman-assets/imgs/icon_level0.png",
+    "height": 15,
+    "width": 15,
+	"time": 150,
+	"wallGenPercent": 40,
+    "objects": {
+        "empty": " ",
+        "player": "p",
+        "wall": "w",
+        "block": "b",
+        "crispy": "c",
+        "flag": "f",
+        "end": "e",
+		"safe": "_",
+		"enemyBasic": "0",
+		"enemyWithEye": "1",
+		"enemyFollow": "2",
+		"enemyFly": "3"
+    },
+    "map": [
+        { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
+        { "0": "w_p_          w", "1": "w             w" },
+        { "0": "w_            w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w             e", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" }
+    ],
+    "bonus": {
+        "life": {
+            "chance": 1,
+            "nb": 1
+        },
+        "bombs": {
+            "chance": 1,
+            "nb": 1
+        },
+        "flames": {
+            "chance": 1,
+            "nb": 1
+        },
+        "speed": {
+            "chance": 1,
+            "nb": 1
+        },
+        "wallpass": {
+            "chance": 1,
+            "nb": 1
+        },
+        "detonator": {
+            "chance": 1,
+            "nb": 1
+        },
+        "bombpass": {
+            "chance": 1,
+            "nb": 1
+        },
+        "flampass": {
+            "chance": 1,
+            "nb": 1
+        },
+        "shield": {
+            "chance": 1,
+            "nb": 1
+        },
+        "time": {
+            "chance": 1,
+            "nb": 1
+        },
+        "points": {
+            "chance": 1,
+            "nb": 1
+        }
+    }
+}
