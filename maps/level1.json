@@ -24,7 +24,7 @@
     "map": [
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
         { "0": "w_p_ f        e", "1": "w w       w   w" },
-        { "0": "w_b b b b b b w", "1": "ww3        w  w" },
+        { "0": "w_b b b b b b w", "1": "ww         w  w" },
         { "0": "w             w", "1": "w   w       w w" },
         { "0": "w b b b b b b w", "1": "w  w         ww" },
         { "0": "w             w", "1": "ww         w  w" },
@@ -32,7 +32,7 @@
         { "0": "w             w", "1": "w             w" },
         { "0": "w   ccccc     w", "1": "w             w" },
         { "0": "w             w", "1": "w             w" },
-        { "0": "w b b b b b b w", "1": "w  w        3ww" },
+        { "0": "w b b b b b b w", "1": "w  w         ww" },
         { "0": "w             w", "1": "w   w       w w" },
         { "0": "w b b b b b b w", "1": "w             w" },
         { "0": "w             w", "1": "w             w" },
