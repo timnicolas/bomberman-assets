@@ -1,10 +1,11 @@
 {
-    "name": "level 3",
+    "name": "level 0",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 15,
     "width": 15,
 	"time": 150,
-	"wallGenPercent": 40,
+    "wallGenPercent": 40,
+    "enemiesToKill": 11,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -17,8 +18,17 @@
 		"enemyBasic": "0",
 		"enemyWithEye": "1",
 		"enemyFollow": "2",
-		"enemyFly": "3"
+        "enemyFly": "3",
+        "enemyCrispy": "4",
+        "enemyFrog": "5",
+        "spawner": "s"
     },
+    "spawner": [
+        {
+            "typeEnemy": "01",
+            "frequency": 2
+        }
+    ],
     "map": [
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
         { "0": "w_p_          w", "1": "w             w" },
@@ -27,13 +37,13 @@
         { "0": "w             w", "1": "w             w" },
         { "0": "w             e", "1": "w             w" },
         { "0": "w             w", "1": "w             w" },
+        { "0": "w    _____    w", "1": "w             w" },
+        { "0": "w    __s__    w", "1": "w             w" },
+        { "0": "w    _____    w", "1": "w             w" },
         { "0": "w             w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
+        { "0": "w  ______     w", "1": "w             w" },
+        { "0": "w  __s___     w", "1": "w             w" },
+        { "0": "w  ______     w", "1": "w             w" },
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" }
     ],
     "bonus": {
