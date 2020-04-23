@@ -20,13 +20,32 @@
 		"enemyFollow": "2",
         "enemyFly": "3",
         "enemyCrispy": "4",
-        "enemyFrog": "5",
-        "spawner": "s"
+        "enemyFrog": "5"
     },
     "spawner": [
         {
             "typeEnemy": "01",
-            "frequency": 2
+            "frequency": 2,
+            "position": {
+                "x": 7,
+                "y": 8
+            }
+        },
+        {
+            "typeEnemy": "01",
+            "frequency": 2,
+            "position": {
+                "x": 6,
+                "y": 12
+            }
+        },
+        {
+            "typeEnemy": "2",
+            "frequency": 15,
+            "position": {
+                "x": 12,
+                "y": 11
+            }
         }
     ],
     "map": [
@@ -38,12 +57,12 @@
         { "0": "w             e", "1": "w             w" },
         { "0": "w             w", "1": "w             w" },
         { "0": "w    _____    w", "1": "w             w" },
-        { "0": "w    __s__    w", "1": "w             w" },
         { "0": "w    _____    w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "w  ______     w", "1": "w             w" },
-        { "0": "w  __s___     w", "1": "w             w" },
-        { "0": "w  ______     w", "1": "w             w" },
+        { "0": "w    _____    w", "1": "w             w" },
+        { "0": "w          cccw", "1": "w             w" },
+        { "0": "w  ______  c_cw", "1": "w             w" },
+        { "0": "w  ______  c_cw", "1": "w             w" },
+        { "0": "w  ______  cccw", "1": "w             w" },
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" }
     ],
     "bonus": {
