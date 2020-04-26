@@ -1,10 +1,10 @@
 {
     "name": "level 0",
-	"img": "bomberman-assets/imgs/icon_level0.png",
+    "img": "bomberman-assets/imgs/icon_level0.png",
     "height": 15,
     "width": 15,
-	"time": 25,
-	"wallGenPercent": 40,
+    "time": 150,
+    "wallGenPercent": 40,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -13,13 +13,13 @@
         "crispy": "c",
         "flag": "f",
         "end": "e",
-		"safe": "_",
-		"enemyBasic": "0",
-		"enemyWithEye": "1",
-		"enemyFollow": "2",
-		"enemyFly": "3",
-		"enemyCrispy": "4",
-		"enemyFrog": "5"
+        "safe": "_",
+        "enemyBasic": "0",
+        "enemyWithEye": "1",
+        "enemyFollow": "2",
+        "enemyFly": "3",
+        "enemyCrispy": "4",
+        "enemyFrog": "5"
     },
     "map": [
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
