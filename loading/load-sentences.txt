@@ -1,5 +1,5 @@
-With  the  Flame  pass,  the  bombs  doesn't  affect  you
-With  the  Wall  pass,  you  can  walk  across  walls
-With  the  detonator,  you  can  explode  bombs  when  you  want  to
-You  can  execute  commands  by  pressing  /
-You  can  show  all  the  keyboards  shortcuts  by  pressing  F1
+With  the  Flame  pass,  the  bombs  don't  affect  you.
+The  Wall  pass  allows  you  to  walk  across  the  walls.
+Explode  bombs  when  you  want  with  the  detonator.
+Execute  commands  by  pressing  /
+View  all  the  keyboard  shortcuts  by  pressing  F1.
