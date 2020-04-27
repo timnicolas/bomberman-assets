@@ -1,3 +1,5 @@
-sentence 1
-a second senctence
-the final sentence for my test
+With  the  Flame  pass,  the  bombs  doesn't  affect  you
+With  the  Wall  pass,  you  can  walk  across  walls
+With  the  detonator,  you  can  explode  bombs  when  you  want  to
+You  can  execute  commands  by  pressing  /
+You  can  show  all  the  keyboards  shortcuts  by  pressing  F1
