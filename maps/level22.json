@@ -1,5 +1,5 @@
 {
-    "name": "level 22: labyrinth",
+    "name": "Stage 3, Level 23: labyrinth",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 21,
     "width": 23,
@@ -14,10 +14,12 @@
         "flag": "f",
         "end": "e",
 		"safe": "_",
-		"enemyBasic": "0",
-		"enemyWithEye": "1",
-		"enemyFollow": "2",
-		"enemyFly": "3"
+        "enemyBasic": "0",
+        "enemyWithEye": "1",
+        "enemyFollow": "2",
+        "enemyFly": "3",
+        "enemyCrispy": "4",
+        "enemyFrog": "5"
     },
     "map": [
         { "0": "wwwwwwwwwwwwwwwwwwwewww", "1": "wwwwwwwwwwwwwwwwwwwwwww" },

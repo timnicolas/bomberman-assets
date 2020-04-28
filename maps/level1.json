@@ -1,5 +1,5 @@
 {
-    "name": "level 2",
+    "name": "Stage 1, Level 2",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 9,
     "width": 15,
@@ -14,12 +14,12 @@
         "flag": "f",
         "end": "e",
 		"safe": "_",
-		"enemyBasic": "0",
-		"enemyWithEye": "1",
-		"enemyFollow": "2",
-		"enemyFly": "3",
-		"enemyCrispy": "4",
-		"enemyFrog": "5"
+        "enemyBasic": "0",
+        "enemyWithEye": "1",
+        "enemyFollow": "2",
+        "enemyFly": "3",
+        "enemyCrispy": "4",
+        "enemyFrog": "5"
     },
     "map": [
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
