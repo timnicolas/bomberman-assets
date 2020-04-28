@@ -1,0 +1,67 @@
+{
+    "name": "level 23: labyrinth",
+	"img": "bomberman-assets/imgs/icon_level0.png",
+    "height": 17,
+    "width": 17,
+	"time": 150,
+	"wallGenPercent": 40,
+    "objects": {
+        "empty": " ",
+        "player": "p",
+        "wall": "w",
+        "block": "b",
+        "crispy": "c",
+        "flag": "f",
+        "end": "e",
+		"safe": "_",
+		"enemyBasic": "0",
+		"enemyWithEye": "1",
+		"enemyFollow": "2",
+		"enemyFly": "3"
+    },
+    "map": [
+        { "0": "wwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwww" },
+        { "0": "w               w", "1": "w               w" },
+        { "0": "w wwwwwww w w w w", "1": "w               w" },
+        { "0": "w w       w w w w", "1": "w               w" },
+        { "0": "w w wwwwwww w w w", "1": "w               w" },
+        { "0": "w w w     f w w w", "1": "w               w" },
+        { "0": "w w w wwwww w w w", "1": "w               w" },
+        { "0": "w w w     w w w w", "1": "w               w" },
+        { "0": "w f wwwww w wfw w", "1": "w               w" },
+        { "0": "w   w     w www w", "1": "w               w" },
+        { "0": "w w w w www w w w", "1": "w               w" },
+        { "0": "w w w w w   w w w", "1": "w               w" },
+        { "0": "wcw w w w www   w", "1": "w               w" },
+        { "0": "wcw w wfw     w w", "1": "w               w" },
+        { "0": "w_www wwwwwww wcw", "1": "w               w" },
+        { "0": "wp__w   w     wfw", "1": "w               w" },
+        { "0": "wwwwwwwwwwewwwwww", "1": "wwwwwwwwwwwwwwwww" }
+    ],
+    "bonus": {
+        "bombs": {
+            "chance": 1,
+            "nb": 1
+        },
+        "flames": {
+            "chance": 1,
+            "nb": 1
+        },
+        "speed": {
+            "chance": 1,
+            "nb": 1
+        },
+        "shield": {
+            "chance": 1,
+            "nb": 1
+        },
+        "time": {
+            "chance": 1,
+            "nb": 1
+        },
+        "points": {
+            "chance": 1,
+            "nb": 1
+        }
+    }
+}

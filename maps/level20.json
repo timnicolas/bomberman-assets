@@ -1,0 +1,62 @@
+{
+    "name": "level 20: IDE",
+	"img": "bomberman-assets/imgs/icon_level0.png",
+    "height": 12,
+    "width": 16,
+	"time": 150,
+	"wallGenPercent": 40,
+    "objects": {
+        "empty": " ",
+        "player": "p",
+        "wall": "w",
+        "block": "b",
+        "crispy": "c",
+        "flag": "f",
+        "end": "e",
+		"safe": "_",
+		"enemyBasic": "0",
+		"enemyWithEye": "1",
+		"enemyFollow": "2",
+		"enemyFly": "3"
+    },
+    "map": [
+        { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
+        { "0": "wp___ c   c  c w", "1": "w              w" },
+        { "0": "wwww_www  wwww w", "1": "w              w" },
+        { "0": "wf  cwf wfwfc  w", "1": "w              w" },
+        { "0": "w w  wc   wc  cw", "1": "w              w" },
+        { "0": "w w  wc   ww   w", "1": "w              w" },
+        { "0": "w wc w  wcww   w", "1": "w              w" },
+        { "0": "wc   w  w w    w", "1": "w              w" },
+        { "0": "we    c   w c  w", "1": "w              w" },
+        { "0": "wwww www  wwww w", "1": "w              w" },
+        { "0": "w    c     c   w", "1": "w              w" },
+        { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
+    ],
+    "bonus": {
+        "bombs": {
+            "chance": 1,
+            "nb": 1
+        },
+        "flames": {
+            "chance": 1,
+            "nb": 1
+        },
+        "speed": {
+            "chance": 1,
+            "nb": 1
+        },
+        "shield": {
+            "chance": 1,
+            "nb": 1
+        },
+        "time": {
+            "chance": 1,
+            "nb": 1
+        },
+        "points": {
+            "chance": 1,
+            "nb": 1
+        }
+    }
+}

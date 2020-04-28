@@ -1,0 +1,71 @@
+{
+    "name": "level 22: labyrinth",
+	"img": "bomberman-assets/imgs/icon_level0.png",
+    "height": 21,
+    "width": 23,
+	"time": 150,
+	"wallGenPercent": 40,
+    "objects": {
+        "empty": " ",
+        "player": "p",
+        "wall": "w",
+        "block": "b",
+        "crispy": "c",
+        "flag": "f",
+        "end": "e",
+		"safe": "_",
+		"enemyBasic": "0",
+		"enemyWithEye": "1",
+		"enemyFollow": "2",
+		"enemyFly": "3"
+    },
+    "map": [
+        { "0": "wwwwwwwwwwwwwwwwwwwewww", "1": "wwwwwwwwwwwwwwwwwwwwwww" },
+        { "0": "wp_w   fw   w   w     w", "1": "w                     w" },
+        { "0": "w_w  wwww w w w w wwcww", "1": "w                     w" },
+        { "0": "w_w  c    w   w w w  fw", "1": "w                     w" },
+        { "0": "w w wwwwwwwwwww w wwwww", "1": "w                     w" },
+        { "0": "w w w         w w  wfcw", "1": "w                     w" },
+        { "0": "w w w wwwwwww w ww wccw", "1": "w                     w" },
+        { "0": "w w w w       w  w w ww", "1": "w                     w" },
+        { "0": "w w w wfwwwwwwww w w  w", "1": "w                     w" },
+        { "0": "w   w wc       w w ww w", "1": "w                     w" },
+        { "0": "w www wwwwwwww w w w  w", "1": "w                     w" },
+        { "0": "w        w   w w w    w", "1": "w                     w" },
+        { "0": "wwwwwwww w w   w ww www", "1": "w                     w" },
+        { "0": "w      w   wwwww w    w", "1": "w                     w" },
+        { "0": "w www  w      wf wwww w", "1": "w                     w" },
+        { "0": "w wfw    wwww w     w w", "1": "w                     w" },
+        { "0": "w w    w w    wwwww w w", "1": "w                     w" },
+        { "0": "w w w  w w    w     w w", "1": "w                     w" },
+        { "0": "w w w  w w wwww wwwww w", "1": "w                     w" },
+        { "0": "w   w    w            w", "1": "w                     w" },
+        { "0": "wwwwwwwwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwwwwwwwww" }
+    ],
+    "bonus": {
+        "bombs": {
+            "chance": 1,
+            "nb": 1
+        },
+        "flames": {
+            "chance": 1,
+            "nb": 1
+        },
+        "speed": {
+            "chance": 1,
+            "nb": 1
+        },
+        "shield": {
+            "chance": 1,
+            "nb": 1
+        },
+        "time": {
+            "chance": 1,
+            "nb": 1
+        },
+        "points": {
+            "chance": 1,
+            "nb": 1
+        }
+    }
+}
