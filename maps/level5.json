@@ -1,5 +1,5 @@
 {
-    "name": "level 5",
+    "name": "level 10: alien",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 12,
     "width": 16,
@@ -21,16 +21,16 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
-        { "0": "w p  cbb   w   w", "1": "w              w" },
-        { "0": "w__ c      w e w", "1": "w              w" },
-        { "0": "w  c     f w   w", "1": "w              w" },
-        { "0": "w c        w   w", "1": "w              w" },
-        { "0": "wc c   ww  w   w", "1": "w              w" },
-        { "0": "w   ww ww  w www", "1": "w              w" },
-        { "0": "w c c   c   c  w", "1": "w              w" },
-        { "0": "wcwww w        w", "1": "w              w" },
-        { "0": "w     w        w", "1": "w              w" },
-        { "0": "w c   c    c   w", "1": "w              w" },
+        { "0": "w_c            w", "1": "w              w" },
+        { "0": "w_pc         f w", "1": "w              w" },
+        { "0": "w c w www w    w", "1": "w              w" },
+        { "0": "w   wwwewww    w", "1": "w              w" },
+        { "0": "w     wcw      w", "1": "w              w" },
+        { "0": "w     wcw      w", "1": "w              w" },
+        { "0": "w     w w      w", "1": "w              w" },
+        { "0": "w     w w      w", "1": "w              w" },
+        { "0": "w f          f w", "1": "w              w" },
+        { "0": "w              w", "1": "w              w" },
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {

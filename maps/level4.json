@@ -1,11 +1,10 @@
 {
-    "name": "level 4 : boss",
+    "name": "level 9: H",
 	"img": "bomberman-assets/imgs/icon_level0.png",
-    "height": 15,
-    "width": 15,
-	"time": 270,
-    "wallGenPercent": 40,
-    "enemiesToKill": 40,
+    "height": 12,
+    "width": 16,
+	"time": 150,
+	"wallGenPercent": 40,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -18,58 +17,23 @@
 		"enemyBasic": "0",
 		"enemyWithEye": "1",
 		"enemyFollow": "2",
-        "enemyFly": "3",
-        "enemyCrispy": "4",
-        "enemyFrog": "5"
+		"enemyFly": "3"
     },
-    "spawner": [
-        {
-            "typeEnemy": "01",
-            "frequency": 5,
-            "position": {
-                "x": 7,
-                "y": 8
-            }
-        },
-        {
-            "typeEnemy": "015",
-            "frequency": 5,
-            "position": {
-                "x": 6,
-                "y": 12
-            }
-        },
-        {
-            "typeEnemy": "23",
-            "frequency": 15,
-            "position": {
-                "x": 12,
-                "y": 11
-            }
-        }
-    ],
     "map": [
-        { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
-        { "0": "w_p_          w", "1": "w      b      w" },
-        { "0": "w_            w", "1": "w         b   w" },
-        { "0": "w             w", "1": "wb            w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "w             e", "1": "w   b      b  w" },
-        { "0": "w             w", "1": "w            bw" },
-        { "0": "w    _bbb_    w", "1": "w             w" },
-        { "0": "w    _____    w", "1": "w             w" },
-        { "0": "w    _____    w", "1": "wb         b  w" },
-        { "0": "w          cbbw", "1": "w      b      w" },
-        { "0": "w  _bbbb_  __cw", "1": "w             w" },
-        { "0": "w  _b__c_  c_cw", "1": "w bb          w" },
-        { "0": "w  _c  c_  cccw", "1": "w        b    w" },
-        { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" }
+        { "0": "wwwww____wwwwwww", "1": "wwwww____wwwwwww" },
+        { "0": "wp__w____w     w", "1": "w   w____w     w" },
+        { "0": "w_c w____w ww  w", "1": "w   w____w     w" },
+        { "0": "wcccw____w  w  w", "1": "w   w____w     w" },
+        { "0": "w w wwwwww  w  w", "1": "w   wwwwww     w" },
+        { "0": "www c     c    w", "1": "w              w" },
+        { "0": "wc  wwwwww  w  w", "1": "w   wwwwww     w" },
+        { "0": "wc cw____w  w  w", "1": "w   w____w     w" },
+        { "0": "wcc w____w  w  w", "1": "w   w____w     w" },
+        { "0": "wf  w____w c   w", "1": "w   w____w     w" },
+        { "0": "w   w____wcfe  w", "1": "w   w____w     w" },
+        { "0": "wwwww____wwwwwww", "1": "wwwww____wwwwwww" }
     ],
     "bonus": {
-        "life": {
-            "chance": 1,
-            "nb": 1
-        },
         "bombs": {
             "chance": 1,
             "nb": 1
@@ -79,22 +43,6 @@
             "nb": 1
         },
         "speed": {
-            "chance": 1,
-            "nb": 1
-        },
-        "wallpass": {
-            "chance": 1,
-            "nb": 1
-        },
-        "detonator": {
-            "chance": 1,
-            "nb": 1
-        },
-        "bombpass": {
-            "chance": 1,
-            "nb": 1
-        },
-        "flampass": {
             "chance": 1,
             "nb": 1
         },

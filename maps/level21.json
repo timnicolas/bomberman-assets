@@ -1,5 +1,5 @@
 {
-    "name": "level 21",
+    "name": "level 20: IDE",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 12,
     "width": 16,
@@ -21,16 +21,16 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
-        { "0": "w    wpff w  w w", "1": "w              w" },
-        { "0": "w   c__ww  c www", "1": "w              w" },
-        { "0": "wc   www w   c w", "1": "w              w" },
-        { "0": "wwcwc c w    w w", "1": "w              w" },
-        { "0": "wwfw c  wwww wcw", "1": "w              w" },
-        { "0": "w wwwwwwc  c   w", "1": "w              w" },
-        { "0": "ww    cw      ww", "1": "w              w" },
-        { "0": "wc  fw w     ccw", "1": "w              w" },
-        { "0": "wew ww wcc w cfw", "1": "w              w" },
-        { "0": "www   c  ww w ww", "1": "w              w" },
+        { "0": "wp___ c   c  c w", "1": "w              w" },
+        { "0": "wwww_www  wwww w", "1": "w              w" },
+        { "0": "wf  cwf wfwfc  w", "1": "w              w" },
+        { "0": "w w  wc   wc  cw", "1": "w              w" },
+        { "0": "w w  wc   ww   w", "1": "w              w" },
+        { "0": "w wc w  wcww   w", "1": "w              w" },
+        { "0": "wc   w  w w    w", "1": "w              w" },
+        { "0": "we    c   w c  w", "1": "w              w" },
+        { "0": "wwww www  wwww w", "1": "w              w" },
+        { "0": "w    c     c   w", "1": "w              w" },
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {

@@ -1,10 +1,10 @@
 {
-    "name": "level 1",
-	"img": "bomberman-assets/imgs/icon_level1.png",
-    "height": 15,
+    "name": "level 2",
+	"img": "bomberman-assets/imgs/icon_level0.png",
+    "height": 9,
     "width": 15,
 	"time": 150,
-	"wallGenPercent": 5,
+	"wallGenPercent": 40,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -23,25 +23,13 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
-        { "0": "w_p_ f        e", "1": "w w       w   w" },
-        { "0": "w_b b b b b b w", "1": "ww         w  w" },
-        { "0": "w             w", "1": "w   w       w w" },
-        { "0": "w b b b b b b w", "1": "w  w         ww" },
-        { "0": "w             w", "1": "ww         w  w" },
-        { "0": "w b b b b b b w", "1": "w w       w   w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "w   ccccc     w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "w b b b b b b w", "1": "w  w         ww" },
-        { "0": "w             w", "1": "w   w       w w" },
+        { "0": "w_p_     1    w", "1": "w             w" },
+        { "0": "w_b b b b b b w", "1": "w             w" },
+        { "0": "w            fw", "1": "w             w" },
         { "0": "w b b b b b b w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
+        { "0": "w            0e", "1": "w             w" },
+        { "0": "w bb b b b b  w", "1": "w             w" },
+        { "0": "w  f 2        w", "1": "w             w" },
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" }
-    ],
-    "bonus": {
-        "life": {
-            "chance": 10,
-            "nb": -1
-        }
-    }
+    ]
 }

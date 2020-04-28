@@ -1,5 +1,5 @@
 {
-    "name": "level 10: alien",
+    "name": "level 16: The Grand Canyon",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 12,
     "width": 16,
@@ -21,16 +21,16 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
-        { "0": "w_c            w", "1": "w              w" },
-        { "0": "w_pc         f w", "1": "w              w" },
-        { "0": "w c w www w    w", "1": "w              w" },
-        { "0": "w   wwwewww    w", "1": "w              w" },
-        { "0": "w     wcw      w", "1": "w              w" },
-        { "0": "w     wcw      w", "1": "w              w" },
-        { "0": "w     w w      w", "1": "w              w" },
-        { "0": "w     w w      w", "1": "w              w" },
-        { "0": "w f          f w", "1": "w              w" },
-        { "0": "w              w", "1": "w              w" },
+        { "0": "w c     f      w", "1": "w              w" },
+        { "0": "wc       c     w", "1": "w              w" },
+        { "0": "w  c   ww      w", "1": "w      ww      w" },
+        { "0": "wc     ww  c   w", "1": "w      ww      w" },
+        { "0": "w   c  ww      w", "1": "w      ww      w" },
+        { "0": "w    c ww      w", "1": "w      ww      w" },
+        { "0": "w c    ww w    w", "1": "w      ww      w" },
+        { "0": "w   w  ww      w", "1": "w      ww      w" },
+        { "0": "wc  cewwww  __ w", "1": "w     wwww     w" },
+        { "0": "w   wwwwwwfwp_ w", "1": "w   wwwwww     w" },
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {

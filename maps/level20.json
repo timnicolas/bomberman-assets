@@ -1,5 +1,5 @@
 {
-    "name": "level 20: IDE",
+    "name": "level 19: dalmatian",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 12,
     "width": 16,
@@ -21,16 +21,16 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
-        { "0": "wp___ c   c  c w", "1": "w              w" },
-        { "0": "wwww_www  wwww w", "1": "w              w" },
-        { "0": "wf  cwf wfwfc  w", "1": "w              w" },
-        { "0": "w w  wc   wc  cw", "1": "w              w" },
-        { "0": "w w  wc   ww   w", "1": "w              w" },
-        { "0": "w wc w  wcww   w", "1": "w              w" },
-        { "0": "wc   w  w w    w", "1": "w              w" },
-        { "0": "we    c   w c  w", "1": "w              w" },
-        { "0": "wwww www  wwww w", "1": "w              w" },
-        { "0": "w    c     c   w", "1": "w              w" },
+        { "0": "w    c         w", "1": "w              w" },
+        { "0": "w   c   w    ccw", "1": "w       w      w" },
+        { "0": "w  www c   f _cw", "1": "w  www         w" },
+        { "0": "w  wwwww    wp_w", "1": "w  wwwww       w" },
+        { "0": "w  wwec    wwwww", "1": "w  ww      wwwww" },
+        { "0": "w   w     wwwwww", "1": "w   w     wwwwww" },
+        { "0": "w     c  wwww ww", "1": "w        wwww ww" },
+        { "0": "w        wwf   w", "1": "w        ww    w" },
+        { "0": "wc w         w w", "1": "w              w" },
+        { "0": "wf             w", "1": "w              w" },
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {

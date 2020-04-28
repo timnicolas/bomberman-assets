@@ -1,8 +1,8 @@
 {
-    "name": "level 17: HARD",
+    "name": "level 5",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 12,
-    "width": 18,
+    "width": 16,
 	"time": 150,
 	"wallGenPercent": 40,
     "objects": {
@@ -20,18 +20,18 @@
 		"enemyFly": "3"
     },
     "map": [
-        { "0": "wwwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwwww" },
-        { "0": "w  c   _p_ c     w", "1": "w                w" },
-        { "0": "w b b bbb_bbb bb w", "1": "w                w" },
-        { "0": "w b b b b b b b bw", "1": "w                w" },
-        { "0": "w b bfb bcb b b bw", "1": "w                w" },
-        { "0": "w bbb bbb bb  b bw", "1": "w                w" },
-        { "0": "w beb b b b b b bw", "1": "w                w" },
-        { "0": "w b b b b b b  fbw", "1": "w                w" },
-        { "0": "w bcb b b b b b bw", "1": "w                w" },
-        { "0": "w b b b b bcb bb w", "1": "w                w" },
-        { "0": "w       c   c  c w", "1": "w                w" },
-        { "0": "wwwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwwww" }
+        { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
+        { "0": "w p  cbb   w   w", "1": "w              w" },
+        { "0": "w__ c      w e w", "1": "w              w" },
+        { "0": "w  c     f w   w", "1": "w              w" },
+        { "0": "w c        w   w", "1": "w              w" },
+        { "0": "wc c   ww  w   w", "1": "w              w" },
+        { "0": "w   ww ww  w www", "1": "w              w" },
+        { "0": "w c c   c   c  w", "1": "w              w" },
+        { "0": "wcwww w        w", "1": "w              w" },
+        { "0": "w     w        w", "1": "w              w" },
+        { "0": "w c   c    c   w", "1": "w              w" },
+        { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {
         "bombs": {

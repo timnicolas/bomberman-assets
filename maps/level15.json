@@ -1,8 +1,8 @@
 {
-    "name": "level 15",
+    "name": "level 18: tennis",
 	"img": "bomberman-assets/imgs/icon_level0.png",
-    "height": 12,
-    "width": 16,
+    "height": 14,
+    "width": 18,
 	"time": 150,
 	"wallGenPercent": 40,
     "objects": {
@@ -20,18 +20,20 @@
 		"enemyFly": "3"
     },
     "map": [
-        { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
-        { "0": "wp_    wwwwwwwww", "1": "w      wwwwwwwww" },
-        { "0": "w__w w    ccwwww", "1": "w           wwww" },
-        { "0": "wcc fw    ccewww", "1": "w            www" },
-        { "0": "w  c      wwwwww", "1": "w         wwwwww" },
-        { "0": "w   wwwwwww   ww", "1": "w             ww" },
-        { "0": "wc  www       cw", "1": "w              w" },
-        { "0": "wf  www  c   wfw", "1": "w            w w" },
-        { "0": "w  cwww wfw  www", "1": "w            www" },
-        { "0": "w     c www w  w", "1": "w              w" },
-        { "0": "w    f         w", "1": "w              w" },
-        { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
+        { "0": "wwwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwwww" },
+        { "0": "w                w", "1": "w                w" },
+        { "0": "w wwwwwwc wwwwww w", "1": "w                w" },
+        { "0": "w wc          cw w", "1": "w                w" },
+        { "0": "w w c        c w w", "1": "w                w" },
+        { "0": "w w      cccc  c w", "1": "w                w" },
+        { "0": "w w      cp_c  c w", "1": "w                w" },
+        { "0": "w c      cf_c  w w", "1": "w                w" },
+        { "0": "w c    f cccc  w w", "1": "w                w" },
+        { "0": "w w cc c     c w w", "1": "w                w" },
+        { "0": "w we c        cw w", "1": "w                w" },
+        { "0": "w wwwwww cwwwwww w", "1": "w                w" },
+        { "0": "w                w", "1": "w                w" },
+        { "0": "wwwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwwww" }
     ],
     "bonus": {
         "bombs": {

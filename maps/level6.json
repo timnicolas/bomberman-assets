@@ -1,10 +1,10 @@
 {
-    "name": "level 6",
-	"img": "bomberman-assets/imgs/icon_level0.png",
-    "height": 12,
-    "width": 16,
+    "name": "level 1",
+	"img": "bomberman-assets/imgs/icon_level1.png",
+    "height": 15,
+    "width": 15,
 	"time": 150,
-	"wallGenPercent": 40,
+	"wallGenPercent": 5,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -17,46 +17,31 @@
 		"enemyBasic": "0",
 		"enemyWithEye": "1",
 		"enemyFollow": "2",
-		"enemyFly": "3"
+		"enemyFly": "3",
+		"enemyCrispy": "4",
+		"enemyFrog": "5"
     },
     "map": [
-        { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
-        { "0": "w            c w", "1": "w              w" },
-        { "0": "w   e        cfw", "1": "w              w" },
-        { "0": "wf           cew", "1": "w              w" },
-        { "0": "w          wwwww", "1": "w          wwwww" },
-        { "0": "w    w ww  w____", "1": "w          w____" },
-        { "0": "w    wccw  w____", "1": "w          w____" },
-        { "0": "w    wccw  w____", "1": "w          w____" },
-        { "0": "w    ww w  w____", "1": "w          w____" },
-        { "0": "w   c  _   w____", "1": "w          w____" },
-        { "0": "w   c _p   w____", "1": "w          w____" },
-        { "0": "wwwwwwwwwwww____", "1": "wwwwwwwwwwww____" }
+        { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
+        { "0": "w_p_ f        e", "1": "w w       w   w" },
+        { "0": "w_b b b b b b w", "1": "ww         w  w" },
+        { "0": "w             w", "1": "w   w       w w" },
+        { "0": "w b b b b b b w", "1": "w  w         ww" },
+        { "0": "w             w", "1": "ww         w  w" },
+        { "0": "w b b b b b b w", "1": "w w       w   w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w   ccccc     w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "w b b b b b b w", "1": "w  w         ww" },
+        { "0": "w             w", "1": "w   w       w w" },
+        { "0": "w b b b b b b w", "1": "w             w" },
+        { "0": "w             w", "1": "w             w" },
+        { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" }
     ],
     "bonus": {
-        "bombs": {
-            "chance": 1,
-            "nb": 1
-        },
-        "flames": {
-            "chance": 1,
-            "nb": 1
-        },
-        "speed": {
-            "chance": 1,
-            "nb": 1
-        },
-        "shield": {
-            "chance": 1,
-            "nb": 1
-        },
-        "time": {
-            "chance": 1,
-            "nb": 1
-        },
-        "points": {
-            "chance": 1,
-            "nb": 1
+        "life": {
+            "chance": 10,
+            "nb": -1
         }
     }
 }
