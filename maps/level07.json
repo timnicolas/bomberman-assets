@@ -5,7 +5,7 @@
     "width": 15,
 	"time": 270,
     "wallGenPercent": 40,
-    "enemiesToKill": 42,
+    "enemiesToKill": 21,
     "objects": {
         "empty": " ",
         "player": "p",

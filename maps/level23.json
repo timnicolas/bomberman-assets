@@ -3,8 +3,8 @@
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 27,
     "width": 21,
-	"time": 150,
-	"wallGenPercent": 40,
+	"time": 250,
+	"wallGenPercent": 55,
     "enemiesToKill": 42,
     "objects": {
         "empty": " ",
@@ -54,7 +54,7 @@
      "spawner": [
         {
             "typeEnemy": "2",
-            "frequency": 5,
+            "frequency": 4,
             "position": {
                 "x": 10,
                 "y": 13
@@ -84,7 +84,7 @@
         },
         "detonator": {
             "chance": 100,
-            "nb": 1
+            "nb": 2
         },
         "bombpass": {
             "chance": 2,
@@ -100,7 +100,7 @@
         },
         "time": {
             "chance": 20,
-            "nb": 20
+            "nb": -1
         },
         "points": {
             "chance": 5,
