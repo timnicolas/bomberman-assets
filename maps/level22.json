@@ -50,7 +50,7 @@
             "nb": -1
         },
         "bombs": {
-            "chance": 15,
+            "chance": 20,
             "nb": -1
         },
         "flames": {
@@ -58,7 +58,7 @@
             "nb": -1
         },
         "speed": {
-            "chance": 10,
+            "chance": 15,
             "nb": 4
         },
         "shield": {
@@ -66,8 +66,8 @@
             "nb": 1
         },
         "time": {
-            "chance": 20,
-            "nb": 15
+            "chance": 28,
+            "nb": -1
         },
         "points": {
             "chance": 15,
