@@ -1,5 +1,5 @@
 {
-    "name": "Stage 1, Level 6: alien",
+    "name": "Stage 1, Level 6 - Alien",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 12,
     "width": 16,
@@ -25,40 +25,36 @@
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
         { "0": "w_c            w", "1": "w              w" },
         { "0": "w_pc         f w", "1": "w              w" },
-        { "0": "w c w www w    w", "1": "w              w" },
+        { "0": "w c w www w  4 w", "1": "w              w" },
         { "0": "w   wwwewww    w", "1": "w              w" },
         { "0": "w     wcw      w", "1": "w              w" },
         { "0": "w     wcw      w", "1": "w              w" },
-        { "0": "w     w w      w", "1": "w              w" },
-        { "0": "w     w w      w", "1": "w              w" },
+        { "0": "w     w0w      w", "1": "w              w" },
+        { "0": "w 1   w4w    0 w", "1": "w              w" },
         { "0": "w f          f w", "1": "w              w" },
         { "0": "w              w", "1": "w              w" },
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {
-        "bombs": {
-            "chance": 1,
+        "life": {
+            "chance": 10,
             "nb": 1
         },
         "flames": {
-            "chance": 1,
+            "chance": 10,
             "nb": 1
         },
         "speed": {
-            "chance": 1,
+            "chance": 10,
             "nb": 1
         },
         "shield": {
-            "chance": 1,
-            "nb": 1
-        },
-        "time": {
-            "chance": 1,
+            "chance": 5,
             "nb": 1
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 3
         }
     }
 }

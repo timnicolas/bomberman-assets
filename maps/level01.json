@@ -29,7 +29,13 @@
         { "0": "w b b b b b b w", "1": "w             w" },
         { "0": "w            0e", "1": "w             w" },
         { "0": "w bb b b b b  w", "1": "w             w" },
-        { "0": "w  f 2        w", "1": "w             w" },
+        { "0": "w  f 1        w", "1": "w             w" },
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" }
-    ]
+    ],
+    "bonus": {
+        "points": {
+            "chance": 1,
+            "nb": 4
+        }
+    }
 }

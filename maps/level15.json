@@ -1,10 +1,11 @@
 {
-    "name": "Stage 2, Level 16: Boss of tennis",
+    "name": "Stage 2, Level 16 - Boss of tennis",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 14,
     "width": 18,
 	"time": 150,
 	"wallGenPercent": 40,
+    "enemiesToKill": 42,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -27,40 +28,86 @@
         { "0": "w wwwwwwc wwwwww w", "1": "w                w" },
         { "0": "w wc          cw w", "1": "w                w" },
         { "0": "w w c        c w w", "1": "w                w" },
-        { "0": "w w      cccc  c w", "1": "w                w" },
+        { "0": "w w      4ccc  c w", "1": "w                w" },
         { "0": "w w      cp_c  c w", "1": "w                w" },
-        { "0": "w c      cf_c  w w", "1": "w                w" },
+        { "0": "w c    1 cf_c  w w", "1": "w                w" },
         { "0": "w c    f cccc  w w", "1": "w                w" },
-        { "0": "w w cc c     c w w", "1": "w                w" },
+        { "0": "w w4cc c     c w w", "1": "w                w" },
         { "0": "w we c        cw w", "1": "w                w" },
         { "0": "w wwwwww cwwwwww w", "1": "w                w" },
         { "0": "w                w", "1": "w                w" },
         { "0": "wwwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwwww" }
     ],
+    "spawner": [
+       {
+           "typeEnemy": "2",
+           "frequency": 5,
+           "position": {
+               "x": 7,
+               "y": 12
+           }
+       },
+       {
+           "typeEnemy": "2",
+           "frequency": 5,
+           "position": {
+               "x": 1,
+               "y": 7
+           }
+       },
+       {
+           "typeEnemy": "2",
+           "frequency": 5,
+           "position": {
+               "x": 9,
+               "y": 1
+           }
+       },
+       {
+           "typeEnemy": "2",
+           "frequency": 5,
+           "position": {
+               "x": 15,
+               "y": 6
+           }
+       }
+   ],
     "bonus": {
+        "life": {
+            "chance": 10,
+            "nb": -1
+        },
         "bombs": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": -1
         },
         "flames": {
+            "chance": 10,
+            "nb": -1
+        },
+        "speed": {
+            "chance": 10,
+            "nb": 4
+        },
+        "detonator": {
             "chance": 1,
             "nb": 1
         },
-        "speed": {
-            "chance": 1,
+        "bombpass": {
+            "chance": 2,
             "nb": 1
         },
         "shield": {
-            "chance": 1,
+            "chance": 5,
             "nb": 1
         },
         "time": {
-            "chance": 1,
-            "nb": 1
+            "chance": 20,
+            "nb": 7
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 3
         }
     }
 }

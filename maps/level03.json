@@ -1,10 +1,10 @@
 {
-    "name": "Stage 1, Level 4: wind isle",
+    "name": "Stage 1, Level 4 - Wind Island",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 11,
     "width": 14,
 	"time": 150,
-	"wallGenPercent": 40,
+	"wallGenPercent": 25,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -26,38 +26,30 @@
         { "0": "_____wwwww____", "1": "_____wwwww____" },
         { "0": "___wwwp__ww___", "1": "___www   ww___" },
         { "0": "_www c_  cwww_", "1": "_www      www_" },
-        { "0": "_w    c c   w_", "1": "_w          w_" },
-        { "0": "_www c c c ww_", "1": "_www       ww_" },
+        { "0": "_w1   c c 0 w_", "1": "_w          w_" },
+        { "0": "_www c0c c ww_", "1": "_www       ww_" },
         { "0": "___wwfc cfww__", "1": "___ww     ww__" },
-        { "0": "____ww   ww___", "1": "____ww   ww___" },
+        { "0": "____ww  1ww___", "1": "____ww   ww___" },
         { "0": "_____wweww____", "1": "_____ww ww____" },
         { "0": "______www_____", "1": "______www_____" },
         { "0": "______________", "1": "______________" }
     ],
     "bonus": {
-        "bombs": {
-            "chance": 1,
-            "nb": 1
-        },
         "flames": {
-            "chance": 1,
-            "nb": 1
-        },
-        "speed": {
-            "chance": 1,
+            "chance": 10,
             "nb": 1
         },
         "shield": {
-            "chance": 1,
+            "chance": 5,
             "nb": 1
         },
         "time": {
-            "chance": 1,
+            "chance": 20,
             "nb": 1
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": -1
         }
     }
 }

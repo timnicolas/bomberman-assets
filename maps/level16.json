@@ -4,7 +4,7 @@
     "height": 12,
     "width": 16,
 	"time": 150,
-	"wallGenPercent": 40,
+	"wallGenPercent": 15,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -23,42 +23,50 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
-        { "0": "w    wpff w  w w", "1": "w              w" },
+        { "0": "w    wpff4w  w5w", "1": "w              w" },
         { "0": "w   c__ww  c www", "1": "w              w" },
-        { "0": "wc   www w   c w", "1": "w              w" },
-        { "0": "wwcwc c w    w w", "1": "w              w" },
+        { "0": "wc2  www w   c w", "1": "w              w" },
+        { "0": "wwcwc c w    w0w", "1": "w              w" },
         { "0": "wwfw c  wwww wcw", "1": "w              w" },
         { "0": "w wwwwwwc  c   w", "1": "w              w" },
         { "0": "ww    cw      ww", "1": "w              w" },
-        { "0": "wc  fw w     ccw", "1": "w              w" },
+        { "0": "wc2 fw w   2 ccw", "1": "w              w" },
         { "0": "wew ww wcc w cfw", "1": "w              w" },
-        { "0": "www   c  ww w ww", "1": "w              w" },
+        { "0": "www   c  ww w4ww", "1": "w              w" },
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {
+        "life": {
+            "chance": 10,
+            "nb": 2
+        },
         "bombs": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 2
         },
         "flames": {
-            "chance": 1,
-            "nb": 1
+            "chance": 10,
+            "nb": 2
         },
         "speed": {
+            "chance": 10,
+            "nb": 2
+        },
+        "flampass": {
             "chance": 1,
             "nb": 1
         },
         "shield": {
-            "chance": 1,
+            "chance": 5,
             "nb": 1
         },
         "time": {
-            "chance": 1,
+            "chance": 20,
             "nb": 1
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 3
         }
     }
 }

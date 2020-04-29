@@ -1,5 +1,5 @@
 {
-    "name": "Stage 2, Level 13: Colonnes de Buren",
+    "name": "Stage 2, Level 13 - Buren's Columns",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 11,
     "width": 19,
@@ -23,41 +23,41 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwwwww" },
-        { "0": "wp_c              w", "1": "w                 w" },
+        { "0": "wp_c       ____0_ w", "1": "w                 w" },
         { "0": "w_b b b b b b b b w", "1": "w                 w" },
         { "0": "wc                w", "1": "w                 w" },
         { "0": "w b b b b b b b b w", "1": "w                 w" },
-        { "0": "w                 w", "1": "w                 w" },
+        { "0": "w          4      w", "1": "w                 w" },
         { "0": "w b b b b b b b b w", "1": "w                 w" },
-        { "0": "w                 w", "1": "w                 w" },
+        { "0": "w    1            w", "1": "w                 w" },
         { "0": "w b b b b b b b b w", "1": "w                 w" },
-        { "0": "w        c        w", "1": "w                 w" },
+        { "0": "w       5c   5 3  w", "1": "w                 w" },
         { "0": "wwwwwwwwwewwwwwwwww", "1": "wwwwwwwwwwwwwwwwwww" }
     ],
     "bonus": {
         "bombs": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": -1
         },
         "flames": {
-            "chance": 1,
-            "nb": 1
+            "chance": 10,
+            "nb": -1
         },
         "speed": {
-            "chance": 1,
-            "nb": 1
+            "chance": 10,
+            "nb": 2
         },
         "shield": {
-            "chance": 1,
+            "chance": 5,
             "nb": 1
         },
         "time": {
-            "chance": 1,
+            "chance": 20,
             "nb": 1
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 3
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "name": "Stage 1, Level 3",
+    "name": "Stage 1, Level 3 - Whistle",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 12,
     "width": 16,
@@ -25,40 +25,36 @@
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
         { "0": "w            c w", "1": "w              w" },
         { "0": "w   e        cfw", "1": "w              w" },
-        { "0": "wf           cew", "1": "w              w" },
+        { "0": "wf  0      5 cew", "1": "w              w" },
         { "0": "w          wwwww", "1": "w          wwwww" },
         { "0": "w    w ww  w____", "1": "w          w____" },
         { "0": "w    wccw  w____", "1": "w          w____" },
         { "0": "w    wccw  w____", "1": "w          w____" },
         { "0": "w    ww w  w____", "1": "w          w____" },
-        { "0": "w   c  _   w____", "1": "w          w____" },
+        { "0": "w  0c  _  1w____", "1": "w          w____" },
         { "0": "w   c _p   w____", "1": "w          w____" },
         { "0": "wwwwwwwwwwww____", "1": "wwwwwwwwwwww____" }
     ],
     "bonus": {
-        "bombs": {
-            "chance": 1,
+        "life": {
+            "chance": 10,
             "nb": 1
         },
-        "flames": {
-            "chance": 1,
+        "bombs": {
+            "chance": 15,
             "nb": 1
         },
         "speed": {
-            "chance": 1,
-            "nb": 1
-        },
-        "shield": {
-            "chance": 1,
+            "chance": 10,
             "nb": 1
         },
         "time": {
-            "chance": 1,
+            "chance": 20,
             "nb": 1
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 3
         }
     }
 }

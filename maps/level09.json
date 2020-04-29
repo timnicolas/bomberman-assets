@@ -1,10 +1,10 @@
 {
-    "name": "Stage 2, Level 10",
+    "name": "Stage 2, Level 10 - Peninsulas",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 12,
     "width": 16,
 	"time": 150,
-	"wallGenPercent": 40,
+	"wallGenPercent": 30,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -25,40 +25,44 @@
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
         { "0": "wp_    wwwwwwwww", "1": "w      wwwwwwwww" },
         { "0": "w__w w    ccwwww", "1": "w           wwww" },
-        { "0": "wcc fw    ccewww", "1": "w            www" },
+        { "0": "wcc fw 4  ccewww", "1": "w            www" },
         { "0": "w  c      wwwwww", "1": "w         wwwwww" },
         { "0": "w   wwwwwww   ww", "1": "w             ww" },
-        { "0": "wc  www       cw", "1": "w              w" },
-        { "0": "wf  www  c   wfw", "1": "w            w w" },
+        { "0": "wc  www      0cw", "1": "w              w" },
+        { "0": "wf1 www 2c   wfw", "1": "w            w w" },
         { "0": "w  cwww wfw  www", "1": "w            www" },
         { "0": "w     c www w  w", "1": "w              w" },
-        { "0": "w    f         w", "1": "w              w" },
+        { "0": "w   4f         w", "1": "w              w" },
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {
+        "life": {
+            "chance": 10,
+            "nb": 2
+        },
         "bombs": {
-            "chance": 1,
+            "chance": 15,
             "nb": 1
         },
         "flames": {
-            "chance": 1,
+            "chance": 10,
             "nb": 1
         },
-        "speed": {
-            "chance": 1,
+        "bombpass": {
+            "chance": 8,
             "nb": 1
         },
         "shield": {
-            "chance": 1,
-            "nb": 1
+            "chance": 5,
+            "nb": 2
         },
         "time": {
-            "chance": 1,
-            "nb": 1
+            "chance": 8,
+            "nb": 2
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 3
         }
     }
 }

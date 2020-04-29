@@ -1,10 +1,11 @@
 {
-    "name": "Stage 3, Level 24: Boss PAC-MAN",
+    "name": "Stage 3, Level 24 - Boss PAC-MAN",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 27,
     "width": 21,
 	"time": 150,
 	"wallGenPercent": 40,
+    "enemiesToKill": 42,
     "objects": {
         "empty": " ",
         "player": "p",
@@ -61,29 +62,49 @@
         }
     ],
     "bonus": {
+        "life": {
+            "chance": 10,
+            "nb": -1
+        },
         "bombs": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": -1
         },
         "flames": {
-            "chance": 1,
-            "nb": 1
+            "chance": 10,
+            "nb": -1
         },
         "speed": {
+            "chance": 10,
+            "nb": 4
+        },
+        "wallpass": {
+            "chance": 5,
+            "nb": 1
+        },
+        "detonator": {
+            "chance": 100,
+            "nb": 1
+        },
+        "bombpass": {
+            "chance": 2,
+            "nb": 1
+        },
+        "flampass": {
             "chance": 1,
             "nb": 1
         },
         "shield": {
-            "chance": 1,
+            "chance": 5,
             "nb": 1
         },
         "time": {
-            "chance": 1,
-            "nb": 1
+            "chance": 20,
+            "nb": 20
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 5,
+            "nb": 3
         }
     }
 }

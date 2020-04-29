@@ -1,5 +1,5 @@
 {
-    "name": "Stage 3, Level 22: IDE",
+    "name": "Stage 3, Level 22 - IDE",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 12,
     "width": 16,
@@ -23,42 +23,46 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
-        { "0": "wp___ c   c  c w", "1": "w              w" },
-        { "0": "wwww_www  wwww w", "1": "w              w" },
-        { "0": "wf  cwf wfwfc  w", "1": "w              w" },
-        { "0": "w w  wc   wc  cw", "1": "w              w" },
+        { "0": "wp___ c   c  c w", "1": "w b      bb    w" },
+        { "0": "wwww_www  wwww w", "1": "wb3       b    w" },
+        { "0": "wf 5cwf wfwfc  w", "1": "w    b      b  w" },
+        { "0": "w w  wc2  wc2 cw", "1": "w   b3       b w" },
         { "0": "w w  wc   ww   w", "1": "w              w" },
-        { "0": "w wc w  wcww   w", "1": "w              w" },
-        { "0": "wc   w  w w    w", "1": "w              w" },
-        { "0": "we    c   w c  w", "1": "w              w" },
-        { "0": "wwww www  wwww w", "1": "w              w" },
+        { "0": "w wc w  wcww   w", "1": "wb        b   3w" },
+        { "0": "wc 2 w  w w   4w", "1": "w b      b b  bw" },
+        { "0": "we    c   w c  w", "1": "w   b        b w" },
+        { "0": "wwww www  wwww w", "1": "w    b      b  w" },
         { "0": "w    c     c   w", "1": "w              w" },
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {
+        "life": {
+            "chance": 10,
+            "nb": -1
+        },
         "bombs": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": -1
         },
         "flames": {
-            "chance": 1,
-            "nb": 1
+            "chance": 10,
+            "nb": -1
         },
         "speed": {
-            "chance": 1,
-            "nb": 1
+            "chance": 10,
+            "nb": 4
         },
         "shield": {
-            "chance": 1,
+            "chance": 5,
             "nb": 1
         },
         "time": {
-            "chance": 1,
-            "nb": 1
+            "chance": 20,
+            "nb": 4
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 3
         }
     }
 }

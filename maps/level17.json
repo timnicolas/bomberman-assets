@@ -23,42 +23,46 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" },
-        { "0": "w p  cbb   w   w", "1": "w              w" },
-        { "0": "w__ c      w e w", "1": "w              w" },
-        { "0": "w  c     f w   w", "1": "w              w" },
+        { "0": "w p  cbb   w___w", "1": "w              w" },
+        { "0": "w__ c      w_e_w", "1": "w              w" },
+        { "0": "w  c    5f w__2w", "1": "w              w" },
         { "0": "w c        w   w", "1": "w              w" },
-        { "0": "wc c   ww  w   w", "1": "w              w" },
+        { "0": "wc2c   ww  w   w", "1": "w              w" },
         { "0": "w   ww ww  w www", "1": "w              w" },
         { "0": "w c c   c   c  w", "1": "w              w" },
         { "0": "wcwww w        w", "1": "w              w" },
-        { "0": "w     w        w", "1": "w              w" },
-        { "0": "w c   c    c   w", "1": "w              w" },
+        { "0": "w     w 1     4w", "1": "w              w" },
+        { "0": "w c2  c    c   w", "1": "w              w" },
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {
+        "life": {
+            "chance": 10,
+            "nb": -1
+        },
         "bombs": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": -1
         },
         "flames": {
-            "chance": 1,
-            "nb": 1
+            "chance": 10,
+            "nb": -1
         },
         "speed": {
-            "chance": 1,
-            "nb": 1
+            "chance": 10,
+            "nb": 4
         },
         "shield": {
-            "chance": 1,
+            "chance": 5,
             "nb": 1
         },
         "time": {
-            "chance": 1,
+            "chance": 20,
             "nb": 1
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 3
         }
     }
 }

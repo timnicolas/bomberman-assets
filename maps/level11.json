@@ -1,5 +1,5 @@
 {
-    "name": "Stage 2, Level 12: labyrinth",
+    "name": "Stage 2, Level 12 - Labyrinth 1",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 17,
     "width": 17,
@@ -24,46 +24,54 @@
     "map": [
         { "0": "wwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwww" },
         { "0": "w               w", "1": "w               w" },
-        { "0": "w wwwwwww w w w w", "1": "w               w" },
-        { "0": "w w       w w w w", "1": "w               w" },
+        { "0": "w wwwwwww w w w w", "1": "w    b          w" },
+        { "0": "w1w    4  w w w w", "1": "w               w" },
         { "0": "w w wwwwwww w w w", "1": "w               w" },
-        { "0": "w w w     f w w w", "1": "w               w" },
-        { "0": "w w w wwwww w w w", "1": "w               w" },
-        { "0": "w w w     w w w w", "1": "w               w" },
+        { "0": "w w w     f w0w w", "1": "w               w" },
+        { "0": "w w1w wwwww w w w", "1": "w               w" },
+        { "0": "w w w     w w w w", "1": "wb              w" },
         { "0": "w f wwwww w wfw w", "1": "w               w" },
-        { "0": "w   w     w www w", "1": "w               w" },
-        { "0": "w w w w www w w w", "1": "w               w" },
+        { "0": "w   w  2  w www w", "1": "w               w" },
+        { "0": "w w w w www2w w w", "1": "w               w" },
         { "0": "w w w w w   w w w", "1": "w               w" },
         { "0": "wcw w w w www   w", "1": "w               w" },
-        { "0": "wcw w wfw     w w", "1": "w               w" },
-        { "0": "w_www wwwwwww wcw", "1": "w               w" },
-        { "0": "wp__w   w     wfw", "1": "w               w" },
+        { "0": "wcw w wfw     w2w", "1": "w               w" },
+        { "0": "w_www wwwwwww wcw", "1": "w           bbbbw" },
+        { "0": "wp__w   w   2 wfw", "1": "w   b       3bbbw" },
         { "0": "wwwwwwwwwwewwwwww", "1": "wwwwwwwwwwwwwwwww" }
     ],
     "bonus": {
+        "life": {
+            "chance": 8,
+            "nb": -1
+        },
         "bombs": {
-            "chance": 1,
-            "nb": 1
+            "chance": 8,
+            "nb": -1
         },
         "flames": {
-            "chance": 1,
-            "nb": 1
+            "chance": 8,
+            "nb": -1
         },
         "speed": {
-            "chance": 1,
+            "chance": 8,
+            "nb": 4
+        },
+        "detonator": {
+            "chance": 8,
             "nb": 1
         },
         "shield": {
-            "chance": 1,
+            "chance": 5,
             "nb": 1
         },
         "time": {
-            "chance": 1,
-            "nb": 1
+            "chance": 25,
+            "nb": -1
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 3
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "name": "Stage 3, Level 23: labyrinth",
+    "name": "Stage 3, Level 23 - labyrinth",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 21,
     "width": 23,
@@ -23,51 +23,55 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwwwwwwwewww", "1": "wwwwwwwwwwwwwwwwwwwwwww" },
-        { "0": "wp_w   fw   w   w     w", "1": "w                     w" },
-        { "0": "w_w  wwww w w w w wwcww", "1": "w                     w" },
-        { "0": "w_w  c    w   w w w  fw", "1": "w                     w" },
-        { "0": "w w wwwwwwwwwww w wwwww", "1": "w                     w" },
-        { "0": "w w w         w w  wfcw", "1": "w                     w" },
+        { "0": "wp_w  2fw   w   w__20_w", "1": "w                     w" },
+        { "0": "w_w  wwww w w w w_wwcww", "1": "w                     w" },
+        { "0": "w_w  c    w 2 w w_w  fw", "1": "w                     w" },
+        { "0": "w w wwwwwwwwwww w_wwwww", "1": "w                     w" },
+        { "0": "w w w     4   w w_ wfcw", "1": "w                     w" },
         { "0": "w w w wwwwwww w ww wccw", "1": "w                     w" },
-        { "0": "w w w w       w  w w ww", "1": "w                     w" },
+        { "0": "w w w5w  2    w  w w ww", "1": "w                     w" },
         { "0": "w w w wfwwwwwwww w w  w", "1": "w                     w" },
-        { "0": "w   w wc       w w ww w", "1": "w                     w" },
-        { "0": "w www wwwwwwww w w w  w", "1": "w                     w" },
+        { "0": "w   w wc       w w ww2w", "1": "w                     w" },
+        { "0": "w www wwwwwwww0w w w  w", "1": "w                     w" },
         { "0": "w        w   w w w    w", "1": "w                     w" },
         { "0": "wwwwwwww w w   w ww www", "1": "w                     w" },
-        { "0": "w      w   wwwww w    w", "1": "w                     w" },
-        { "0": "w www  w      wf wwww w", "1": "w                     w" },
+        { "0": "w      w_4_wwwww w    w", "1": "w                     w" },
+        { "0": "w www  w___   wf wwww w", "1": "w                     w" },
         { "0": "w wfw    wwww w     w w", "1": "w                     w" },
-        { "0": "w w    w w    wwwww w w", "1": "w                     w" },
+        { "0": "w w 2  w w    wwwww w w", "1": "w                     w" },
         { "0": "w w w  w w    w     w w", "1": "w                     w" },
         { "0": "w w w  w w wwww wwwww w", "1": "w                     w" },
-        { "0": "w   w    w            w", "1": "w                     w" },
+        { "0": "w   w    w        0   w", "1": "w                     w" },
         { "0": "wwwwwwwwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwwwwwwwww" }
     ],
     "bonus": {
+        "life": {
+            "chance": 10,
+            "nb": -1
+        },
         "bombs": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": -1
         },
         "flames": {
-            "chance": 1,
-            "nb": 1
+            "chance": 10,
+            "nb": -1
         },
         "speed": {
-            "chance": 1,
-            "nb": 1
+            "chance": 10,
+            "nb": 4
         },
         "shield": {
-            "chance": 1,
+            "chance": 5,
             "nb": 1
         },
         "time": {
-            "chance": 1,
-            "nb": 1
+            "chance": 20,
+            "nb": 15
         },
         "points": {
-            "chance": 1,
-            "nb": 1
+            "chance": 15,
+            "nb": 3
         }
     }
 }

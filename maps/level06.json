@@ -1,5 +1,5 @@
 {
-    "name": "Stage 1, Level 7",
+    "name": "Stage 1, Level 7 - For more life",
 	"img": "bomberman-assets/imgs/icon_level1.png",
     "height": 15,
     "width": 15,
@@ -23,25 +23,49 @@
     },
     "map": [
         { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" },
-        { "0": "w_p_ f        e", "1": "w w       w   w" },
+        { "0": "w_p_ f        w", "1": "w w    3  w   w" },
         { "0": "w_b b b b b b w", "1": "ww         w  w" },
         { "0": "w             w", "1": "w   w       w w" },
         { "0": "w b b b b b b w", "1": "w  w         ww" },
         { "0": "w             w", "1": "ww         w  w" },
         { "0": "w b b b b b b w", "1": "w w       w   w" },
         { "0": "w             w", "1": "w             w" },
-        { "0": "w   ccccc     w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "w b b b b b b w", "1": "w  w         ww" },
-        { "0": "w             w", "1": "w   w       w w" },
-        { "0": "w b b b b b b w", "1": "w             w" },
-        { "0": "w             w", "1": "w             w" },
-        { "0": "wwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwww" }
+        { "0": "w   ccccccc  fw", "1": "w             w" },
+        { "0": "w           w4w", "1": "w             w" },
+        { "0": "w b b b b b w w", "1": "w  w         ww" },
+        { "0": "w  2   f   2w_w", "1": "w   w       w w" },
+        { "0": "w b b b b b w0w", "1": "w             w" },
+        { "0": "w           w_w", "1": "w             w" },
+        { "0": "wwwwwwwwwwwwwew", "1": "wwwwwwwwwwwwwww" }
     ],
     "bonus": {
         "life": {
             "chance": 10,
             "nb": -1
+        },
+        "bombs": {
+            "chance": 15,
+            "nb": 1
+        },
+        "flames": {
+            "chance": 5,
+            "nb": 1
+        },
+        "speed": {
+            "chance": 10,
+            "nb": 4
+        },
+        "shield": {
+            "chance": 5,
+            "nb": 1
+        },
+        "time": {
+            "chance": 20,
+            "nb": 2
+        },
+        "points": {
+            "chance": 15,
+            "nb": 3
         }
     }
 }

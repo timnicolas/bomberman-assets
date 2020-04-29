@@ -1,5 +1,5 @@
  {
-    "name": "Stage 1, Level 1: y",
+    "name": "Stage 1, Level 1 - Y",
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 12,
     "width": 14,
@@ -24,9 +24,9 @@
     "map": [
         { "0": "wwww__________", "1": "wwww__________" },
         { "0": "w  w__wwwwwwww", "1": "w  w__wwwwwwww" },
-        { "0": "we w__w     fw", "1": "w  w__w      w" },
+        { "0": "we w__w   0_fw", "1": "w  w__w      w" },
         { "0": "w  wwww     ww", "1": "w  wwww     ww" },
-        { "0": "w    c      w_", "1": "w           w_" },
+        { "0": "w 0__c      w_", "1": "w           w_" },
         { "0": "wwwwwwww   cw_", "1": "wwwwwwww    w_" },
         { "0": "_______wwww_w_", "1": "_______wwww w_" },
         { "0": "__________w_w_", "1": "__________w w_" },
@@ -36,26 +36,6 @@
         { "0": "__________www_", "1": "__________www_" }
     ],
     "bonus": {
-        "bombs": {
-            "chance": 1,
-            "nb": 1
-        },
-        "flames": {
-            "chance": 1,
-            "nb": 1
-        },
-        "speed": {
-            "chance": 1,
-            "nb": 1
-        },
-        "shield": {
-            "chance": 1,
-            "nb": 1
-        },
-        "time": {
-            "chance": 1,
-            "nb": 1
-        },
         "points": {
             "chance": 1,
             "nb": 1
