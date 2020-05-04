@@ -6,6 +6,7 @@
 	"time": 150,
 	"wallGenPercent": 40,
     "enemiesToKill": 35,
+    "music": "sounds/boss2.ogg",
     "objects": {
         "empty": " ",
         "player": "p",

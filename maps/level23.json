@@ -6,6 +6,7 @@
 	"time": 250,
 	"wallGenPercent": 55,
     "enemiesToKill": 42,
+    "music": "sounds/boss3-pacman.ogg",
     "objects": {
         "empty": " ",
         "player": "p",
