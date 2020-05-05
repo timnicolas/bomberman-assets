@@ -3,7 +3,7 @@
 	"img": "bomberman-assets/imgs/icon_level0.png",
     "height": 21,
     "width": 23,
-	"time": 150,
+	"time": 240,
 	"wallGenPercent": 40,
     "objects": {
         "empty": " ",
@@ -58,7 +58,7 @@
             "nb": -1
         },
         "speed": {
-            "chance": 15,
+            "chance": 20,
             "nb": 4
         },
         "shield": {

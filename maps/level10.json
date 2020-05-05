@@ -32,7 +32,7 @@
         { "0": "w c    ww w    w", "1": "w      ww      w" },
         { "0": "w   w  ww _    w", "1": "w     3ww      w" },
         { "0": "wc  cewwww0c__ w", "1": "w     wwww  bbbw" },
-        { "0": "w   wwwwwwfwp_ w", "1": "w   wwwwww     w" },
+        { "0": "w 0 wwwwwwfwp_ w", "1": "w   wwwwww     w" },
         { "0": "wwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwww" }
     ],
     "bonus": {
@@ -54,7 +54,7 @@
         },
         "points": {
             "chance": 15,
-            "nb": 3
+            "nb": -1
         }
     }
 }

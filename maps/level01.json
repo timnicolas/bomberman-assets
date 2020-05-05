@@ -35,7 +35,7 @@
     "bonus": {
         "points": {
             "chance": 1,
-            "nb": 4
+            "nb": -1
         }
     }
 }

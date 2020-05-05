@@ -36,15 +36,15 @@
     ],
     "bonus": {
         "flames": {
-            "chance": 10,
+            "chance": 100,
             "nb": 1
         },
         "shield": {
-            "chance": 5,
+            "chance": 15,
             "nb": 1
         },
         "time": {
-            "chance": 20,
+            "chance": 10,
             "nb": 1
         },
         "points": {

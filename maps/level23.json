@@ -52,7 +52,7 @@
         { "0": "w                   w", "1": "w                   w" },
         { "0": "wwwwwwwwwwwwwwwwwwwww", "1": "wwwwwwwwwwwwwwwwwwwww" }
     ],
-     "spawner": [
+    "spawner": [
         {
             "typeEnemy": "2",
             "frequency": 4,

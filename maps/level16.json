@@ -65,8 +65,8 @@
             "nb": 1
         },
         "points": {
-            "chance": 15,
-            "nb": 3
+            "chance": 7,
+            "nb": -1
         }
     }
 }
