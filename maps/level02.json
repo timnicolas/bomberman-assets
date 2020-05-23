@@ -6,6 +6,7 @@
 	"time": 150,
 	"wallGenPercent": 40,
     "objects": {
+		"outside": ".",
         "empty": " ",
         "player": "p",
         "wall": "w",
@@ -27,13 +28,13 @@
         { "0": "w   e        cfw", "1": "w              w" },
         { "0": "wf  0      5 cew", "1": "w              w" },
         { "0": "w          wwwww", "1": "w          wwwww" },
-        { "0": "w    w ww  w____", "1": "w          w____" },
-        { "0": "w    wccw  w____", "1": "w          w____" },
-        { "0": "w    wccw  w____", "1": "w          w____" },
-        { "0": "w    ww w  w____", "1": "w          w____" },
-        { "0": "w  0c  _  1w____", "1": "w          w____" },
-        { "0": "w   c _p   w____", "1": "w          w____" },
-        { "0": "wwwwwwwwwwww____", "1": "wwwwwwwwwwww____" }
+        { "0": "w    w ww  w....", "1": "w          w____" },
+        { "0": "w    wccw  w....", "1": "w          w____" },
+        { "0": "w    wccw  w....", "1": "w          w____" },
+        { "0": "w    ww w  w....", "1": "w          w____" },
+        { "0": "w  0c  _  1w....", "1": "w          w____" },
+        { "0": "w   c _p   w....", "1": "w          w____" },
+        { "0": "wwwwwwwwwwww....", "1": "wwwwwwwwwwww____" }
     ],
     "bonus": {
         "life": {

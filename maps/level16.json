@@ -6,6 +6,7 @@
 	"time": 150,
 	"wallGenPercent": 15,
     "objects": {
+		"outside": ".",
         "empty": " ",
         "player": "p",
         "wall": "w",

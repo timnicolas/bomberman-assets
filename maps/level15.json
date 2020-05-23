@@ -8,6 +8,7 @@
     "enemiesToKill": 35,
     "music": "sounds/boss2.ogg",
     "objects": {
+		"outside": ".",
         "empty": " ",
         "player": "p",
         "wall": "w",

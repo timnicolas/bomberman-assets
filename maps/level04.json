@@ -6,6 +6,7 @@
 	"time": 150,
 	"wallGenPercent": 35,
     "objects": {
+		"outside": ".",
         "empty": " ",
         "player": "p",
         "wall": "w",
@@ -22,18 +23,18 @@
         "enemyFrog": "5"
     },
     "map": [
-        { "0": "wwwww____wwwwwww", "1": "wwwww____wwwwwww" },
-        { "0": "wp__w____w     w", "1": "w   w____w     w" },
-        { "0": "w_c w____w ww  w", "1": "w   w____wb    w" },
-        { "0": "wcccw____w  w  w", "1": "w   w____w     w" },
+        { "0": "wwwww....wwwwwww", "1": "wwwww____wwwwwww" },
+        { "0": "wp__w....w     w", "1": "w   w____w     w" },
+        { "0": "w_c w....w ww  w", "1": "w   w____wb    w" },
+        { "0": "wcccw....w  w  w", "1": "w   w____w     w" },
         { "0": "w w wwwwww  w  w", "1": "w   wwwwww  3  w" },
         { "0": "www0c     c    w", "1": "w              w" },
         { "0": "wc  wwwwww  w  w", "1": "w   wwwwww     w" },
-        { "0": "wc cw____w  w  w", "1": "w   w____w     w" },
-        { "0": "wcc w____w  w  w", "1": "w   w____w     w" },
-        { "0": "wf5 w____w c   w", "1": "w   w____w     w" },
-        { "0": "w   w____wcfe 1w", "1": "w   w____w    bw" },
-        { "0": "wwwww____wwwwwww", "1": "wwwww____wwwwwww" }
+        { "0": "wc cw....w  w  w", "1": "w   w____w     w" },
+        { "0": "wcc w....w  w  w", "1": "w   w____w     w" },
+        { "0": "wf5 w....w c   w", "1": "w   w____w     w" },
+        { "0": "w   w....wcfe 1w", "1": "w   w____w    bw" },
+        { "0": "wwwww....wwwwwww", "1": "wwwww____wwwwwww" }
     ],
     "bonus": {
         "life": {
