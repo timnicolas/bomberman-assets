@@ -40,6 +40,9 @@
         "points": {
             "chance": 1,
             "nb": 3
+        }, "life": {
+            "chance": 1,
+            "nb": 1
         }
     }
 }
