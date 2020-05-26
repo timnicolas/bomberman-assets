@@ -1,6 +1,6 @@
 {
     "name": "Stage 1, Level 2",
-	"img": "bomberman-assets/imgs/icon_level0.png",
+	"img": "bomberman-assets/imgs/levels/level-01.png",
     "height": 9,
     "width": 15,
 	"time": 150,
