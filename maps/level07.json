@@ -1,6 +1,6 @@
 {
     "name": "Stage 1, Level 8 - Boss: Kill them all",
-	"img": "bomberman-assets/imgs/icon_level0.png",
+	"img": "bomberman-assets/imgs/levels/level-07.png",
     "height": 15,
     "width": 15,
 	"time": 270,

@@ -1,6 +1,6 @@
 {
     "name": "Stage 1, Level 4 - Wind Island",
-	"img": "bomberman-assets/imgs/icon_level0.png",
+	"img": "bomberman-assets/imgs/levels/level-03.png",
     "height": 11,
     "width": 14,
 	"time": 150,

@@ -1,6 +1,6 @@
 {
     "name": "Stage 1, Level 6 - Alien",
-	"img": "bomberman-assets/imgs/icon_level0.png",
+	"img": "bomberman-assets/imgs/levels/level-05.png",
     "height": 12,
     "width": 16,
 	"time": 150,

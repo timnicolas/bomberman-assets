@@ -1,6 +1,6 @@
 {
     "name": "Stage 3, Level 24 - Boss PAC-MAN",
-	"img": "bomberman-assets/imgs/icon_level0.png",
+	"img": "bomberman-assets/imgs/levels/level-23.png",
     "height": 27,
     "width": 21,
 	"time": 250,
